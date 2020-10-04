@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace LoopTime
 {
@@ -8,6 +9,15 @@ namespace LoopTime
         [SerializeField] private GameObject target = default;
         [SerializeField] private Transform a = default;
         [SerializeField] private Transform b = default;
+        
+        private Vector3 _a;
+        private Vector3 _b;
+
+        private void Start()
+        {
+            this._a = this.a.transform.position;
+            this._b = this.b.transform.position;
+        }
 
         private void OnEnable()
         {
@@ -21,7 +31,7 @@ namespace LoopTime
 
         private void TimeTickedEventHandler(object sender, TimeTickedEventArgs e)
         {
-            this.target.gameObject.transform.position = Vector3.Lerp(this.a.position, this.b.position, e.ToT);
+            this.target.gameObject.transform.position = Vector3.Lerp(this._a, this._b, e.ToT);
         }
     }
 }

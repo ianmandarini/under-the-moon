@@ -59,7 +59,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -294,7 +294,7 @@ MonoBehaviour:
   movementSO: {fileID: 11400000, guid: 3739efd250fbbd14ea2adcca79f72e9d, type: 2}
   walkingSpeed: 5
   runningSpeed: 8
-  jumpIntensity: 4
+  jumpIntensity: 8
   jumpCooldown: 0.2
   gravityVelocity: {x: 0, y: -20}
   target: {fileID: 2507730571912446820}

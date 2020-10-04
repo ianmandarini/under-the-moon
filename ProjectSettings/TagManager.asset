@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 3479016327
+    locked: 0
   - name: Background
     uniqueID: 1914336401
     locked: 0
@@ -56,9 +59,15 @@ TagManager:
   - name: Item
     uniqueID: 3730601505
     locked: 0
+  - name: InteractionIndicator
+    uniqueID: 3569673637
+    locked: 0
   - name: VFX
     uniqueID: 2628017755
     locked: 0
   - name: FrontProp
     uniqueID: 788508647
+    locked: 0
+  - name: WorldCanvas
+    uniqueID: 111667083
     locked: 0
