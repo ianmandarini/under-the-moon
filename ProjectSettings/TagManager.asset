@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Item
+  - NPC
+  - Interaction
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1914336401
+    locked: 0
+  - name: BackProp
+    uniqueID: 885638107
+    locked: 0
+  - name: NPC
+    uniqueID: 3799651105
+    locked: 0
+  - name: Player
+    uniqueID: 3680097375
+    locked: 0
+  - name: Item
+    uniqueID: 3730601505
+    locked: 0
+  - name: VFX
+    uniqueID: 2628017755
+    locked: 0
+  - name: FrontProp
+    uniqueID: 788508647
+    locked: 0
