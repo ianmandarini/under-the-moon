@@ -43,6 +43,7 @@ namespace Dialogue
 
         private void DialogueLineUpdatedEventHandler(object sender, CurrentLineEventArgs e)
         {
+            this.faceImageGUI.enabled = e.HasSprite;
             this.faceImageGUI.sprite = e.Sprite;
             this.mainTextGUI.text = e.Text;
         }

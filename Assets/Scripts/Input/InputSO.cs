@@ -11,6 +11,7 @@ namespace Input
         public bool IsRunning { get; private set; }
         public event EventHandler PickedOrDroppedItem;
         public event EventHandler Jumped;
+        public event EventHandler PressedStart;
 
         public void Tick()
         {
@@ -20,6 +21,8 @@ namespace Input
                 this.OnJumped();
             if(UnityEngine.Input.GetButtonDown(Constants.PickOrDropItemButton))
                 this.OnPickedOrDroppedItem();
+            if(UnityEngine.Input.GetButtonDown(Constants.StartButton))
+                this.OnPressedStart();
             this.HorizontalAxis = UnityEngine.Input.GetAxis(Constants.HorizontalAxis);
             this.IsRunning = UnityEngine.Input.GetButton(Constants.RunButton);
         }
@@ -29,5 +32,7 @@ namespace Input
         private void OnPickedOrDroppedItem() => this.PickedOrDroppedItem?.Invoke(this, EventArgs.Empty);
 
         private void OnJumped() => this.Jumped?.Invoke(this, EventArgs.Empty);
+
+        private void OnPressedStart() => this.PressedStart?.Invoke(this, EventArgs.Empty);
     }
 }

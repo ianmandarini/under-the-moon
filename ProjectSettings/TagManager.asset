@@ -47,8 +47,17 @@ TagManager:
   - name: Background
     uniqueID: 1914336401
     locked: 0
+  - name: BackWall
+    uniqueID: 609850667
+    locked: 0
   - name: BackProp
     uniqueID: 885638107
+    locked: 0
+  - name: Floor
+    uniqueID: 3772465647
+    locked: 0
+  - name: FrontToFloor
+    uniqueID: 62029299
     locked: 0
   - name: NPC
     uniqueID: 3799651105

@@ -6,4 +6,5 @@
     public const string InteractButton = "Interact";
     public const string PickOrDropItemButton = "PickOrDropItem";
     public const string Jumped = "PlayerJump";
+    public static string StartButton = "PressStart";
 }

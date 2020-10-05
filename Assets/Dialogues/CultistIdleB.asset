@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45a5bcd3b80a4926805cadd6d306c808, type: 3}
-  m_Name: TestDialogue
+  m_Name: CultistIdleB
   m_EditorClassIdentifier: 
   hasSprite: 1
   faceSprite: {fileID: 21300000, guid: 9ab5279c9de3a824e84a9608a6653fcb, type: 3}
   dialogueLines:
-  - A
-  - B
-  - C
-  - D
-  - E
+  - I find these ruins fascinating.
+  - They seem to be here since long ago.
+  - But those marking are not from our Father.
+  - They seem to be from another Great Old One.
+  - Perhaps this weird moon has something to do with it?

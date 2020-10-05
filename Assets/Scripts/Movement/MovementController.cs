@@ -51,7 +51,7 @@ namespace Movement
             this._isJumpOnCooldown = false;
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             this.ProcessInput();
             this.Move();

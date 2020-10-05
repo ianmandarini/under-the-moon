@@ -30,6 +30,11 @@ namespace Movement
             this.movementSO.MovementStateUpdated += this.MovementStateUpdatedEventHandler;
         }
 
+        private void OnDisable()
+        {
+            this.movementSO.MovementStateUpdated -= this.MovementStateUpdatedEventHandler;
+        }
+
         private void MovementStateUpdatedEventHandler(object sender, PlayerAnimationStateEventArgs e)
         {
             this.UpdateAccordingToState(e);
